@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fff;
+}
+
+.form-container {
+    max-width: 700px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 0 10px 30px 10px;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #1565c0; /* Blue title */
+}
+
+form {
+    background: #fff;
+    padding: 0 10px;
+}
+
+label {
+    display: block;
+    margin-top: 18px;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="date"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 7px;
+    margin-bottom: 3px;
+    box-sizing: border-box;
+    border: 1.5px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.08rem;
+}
+
+textarea {
+    min-height: 100px;
+    resize: vertical;
+}
+
+button[type="submit"] {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 14px 0;
+    margin-top: 25px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #222;
+}
+
+@media (max-width: 600px) {
+    .form-container {
+        padding: 0 2px 20px 2px;
+    }
+    .form-title {
+        font-size: 1.5rem;
+    }
+}
